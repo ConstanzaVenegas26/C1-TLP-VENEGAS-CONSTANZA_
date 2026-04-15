@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USM EVENTS!!</title>
+    <link rel="stylesheet" href="css/tailwind.css" />
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="bg-indigo-700 text-white">
+      <div class="flex justify-between items-center p-4">
+        <img src="imagenes/logo.png" alt="Logo USM" class="h-12 w-auto" />
+
+        <!--menu escritorio-->
+        <nav class="hidden md:flex gap-6">
+          <a href="index.html" class="hover:text-gray-200">Inicio</a>
+          <a href="eventos.html" class="hover:text-gray-200">Eventos</a>
+          <a href="comunidad.html" class="hover:text-gray-200">Comunidad</a>
+        </nav>
+      </div>
+
+      <!--menu celular-->
+      <nav
+        class="flex md:hidden justify-center gap-6 bg-indigo-800 py-3 text-sm border-t border-indigo-600"
+      >
+        <a href="index.html">Inicio</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="comunidad.html">Comunidad</a>
+      </nav>
+    </header>
+
+    <!--hero-->
+    <section class="px-4 pt-4">
+      <div class="bg-indigo-600 text-white py-16 rounded-3xl shadow-lg">
+        <div
+          class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10"
+        >
+          <!--texto-->
+          <div class="md:w-1/2 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+              Festival Cultural USM 🎶
+            </h1>
+
+            <p class="text-lg mb-6 text-indigo-100">
+              Vive una jornada llena de música, arte y cultura junto a la
+              comunidad estudiantil. Un evento único para conectar, aprender y
+              disfrutar.
+            </p>
+
+            <div class="bg-indigo-500/30 px-6 py-3 text-lg shadow-lg">
+              <p>📅 20 de Abril - 16:00 hrs</p>
+              <p>📍 Campus Casa Central Valparaíso</p>
+            </div>
+          </div>
+
+          <!--img-->
+          <div class="md:w-1/2">
+            <img
+              src="imagenes/evento-destacado.jpg"
+              alt="Festival Cultural USM"
+              class="rounded-2xl shadow-lg w-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--info luego de hero-->
+    <section class="py-20 mt-10">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+          <!--eventos-->
+          <div>
+            <h2
+              class="text-3xl font-extrabold mb-10 text-center md:text-left text-gray-800"
+            >
+              📅 ¡Próximos Eventos!
+            </h2>
+
+            <div class="space-y-8">
+              <div
+                class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-indigo-500 text-center"
+              >
+                <p class="font-semibold text-lg">📖 Mes del Libro</p>
+                <p class="text-sm text-gray-500 mt-2">
+                  📅 15 Abril - 🕒 10:00 hrs
+                </p>
+              </div>
+
+              <div
+                class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-indigo-500 text-center"
+              >
+                <p class="font-semibold text-lg">💻 Niñas en las TIC</p>
+                <p class="text-sm text-gray-500 mt-2">
+                  📅 23 Abril - 🕒 10:30 hrs
+                </p>
+              </div>
+
+              <div
+                class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-indigo-500 text-center"
+              >
+                <p class="font-semibold text-lg">⚡ Ciberseguridad</p>
+                <p class="text-sm text-gray-500 mt-2">
+                  📅 24 Abril - 🕒 15:00 hrs
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--seccion comentarios-->
+          <div>
+            <h2
+              class="text-3xl font-extrabold mb-10 text-center md:text-left text-gray-800"
+            >
+              💬 Comentarios Destacados
+            </h2>
+
+            <div class="space-y-8">
+              <div
+                class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-indigo-500"
+              >
+                <p class="font-bold text-gray-800">👤 María_Pavez</p>
+                <p class="text-sm text-gray-500 mt-3">
+                  Estuve en el evento del Mes del Libro y me encantó la
+                  dedicación para incentivar la lectura.
+                </p>
+              </div>
+
+              <div
+                class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-indigo-500"
+              >
+                <p class="font-bold text-gray-800">👤 Luis_Ortega</p>
+                <p class="text-sm text-gray-500 mt-3 leading-relaxed">
+                  Me gustó mucho el taller de la semana pasada.
+                </p>
+              </div>
+
+              <div
+                class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-indigo-500"
+              >
+                <p class="font-bold text-gray-800">👤 Mateo_Ruiz</p>
+                <p class="text-sm text-gray-500 mt-3">
+                  Genial que este mes hayan muchos eventos culturales.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-indigo-900 text-white mt-10">
+      <div
+        class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between"
+      >
+        <!--info cierre-->
+        <div class="text-xs md:text-sm leading-tight">
+          <p class="font-semibold text-white">👤 Constanza Venegas</p>
+          <p class="text-gray-300">💻 Ingeniería en Informática</p>
+          <p class="text-gray-300">
+            📘 Taller Lenguaje de Programación (EIN082B)
+          </p>
+        </div>
+
+        <!--centro-->
+        <div class="hidden md:block text-center text-xs text-gray-300">
+          <p>Plataforma de eventos estudiantiles</p>
+        </div>
+
+        <!--logo para escritorio-->
+        <div
+          class="hidden md:flex items-center bg-white/10 px-3 py-1 rounded-lg"
+        >
+          <img
+            src="imagenes/logo.png"
+            alt="Logo Universidad"
+            class="h-8 w-auto"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
